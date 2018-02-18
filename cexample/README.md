@@ -21,6 +21,7 @@ There are some magic settings in this project, otherwise it would not run:
 Testing is similar to Debug.
 - test folder is excluded from build in Debug and Release configuration. "main.cpp" is excluded from build in Testing. This must be done because otherwise there 
 would be two "int main()" methods..
+- also all tests except of AllTests.cpp must be excluded from build of Testing configuration.
 - src, lib and test are default folders (no source folder) and must added to include paths in project settings. 
 Do this in C/C++ Build -> Settings -> Tool Settings -> Cygwin C++ Compiler -> Includes.
 - include library "pthread" in project settings -> C/C++ Build -> Settings -> Tool Settings -> Cygwin C++ Linker -> Libraries.
