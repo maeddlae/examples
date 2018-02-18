@@ -1,0 +1,11 @@
+#include "gtest/gtest.h"
+#include "FooTest.cpp"
+
+#include <iostream>
+using namespace std;
+int main(int argc, char **argv)
+{
+  ::testing::InitGoogleTest(&argc, argv);
+	cout << "waas" << endl; // prints !!!Hello World!!!
+  return RUN_ALL_TESTS();
+}

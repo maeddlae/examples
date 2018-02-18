@@ -1,0 +1,15 @@
+/*
+ * cmockexample.h
+ *
+ *  Created on: 18 Feb 2018
+ *      Author: Mathias Bucher
+ */
+
+#ifndef SRC_CMOCKEXAMPLE_H_
+#define SRC_CMOCKEXAMPLE_H_
+
+int mac(int a, int b, int c)
+
+
+
+#endif /* SRC_CMOCKEXAMPLE_H_ */

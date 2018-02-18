@@ -1,0 +1,11 @@
+/*
+ * cmockexample.c
+ *
+ *  Created on: 18 Feb 2018
+ *      Author: Mathias Bucher
+ */
+
+#include "cmockexample.h"
+#include "cexample.h"
+
+
