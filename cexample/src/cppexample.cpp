@@ -5,14 +5,14 @@
  *      Author: Mathias Bucher
  */
 
-#include "Foo.h"
+#include <cppexample.h>
 
-Foo::Foo() {
+CppExample::CppExample() {
 	// TODO Auto-generated constructor stub
 
 }
 
-Foo::~Foo() {
+CppExample::~CppExample() {
 	// TODO Auto-generated destructor stub
 }
 

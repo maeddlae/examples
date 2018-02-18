@@ -1,10 +1,10 @@
 #include "gtest/gtest.h"
-#include "Foo.h"
+#include "cppexample.h"
 
-class FooTest : public ::testing::Test
+class CppExampleTest : public ::testing::Test
 {
 protected:
-	Foo foo;
+	CppExample cpp;
 
 public:
 	void SetUp()
@@ -18,7 +18,7 @@ public:
 	}
 };
 
-TEST_F(FooTest, Foo)
+TEST_F(CppExampleTest, CppExample)
 {
-	ASSERT_TRUE(foo.foo());
+	ASSERT_TRUE(cpp.getTrue());
 }
