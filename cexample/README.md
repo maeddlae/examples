@@ -14,6 +14,7 @@ Is an example project with C/C++ and unit testing.
 Add there a new source called "Project Source". Now set compilation path to 
 "/cygdrive/j" and local file system path to "J:\", with j/J = the drive where your code stays.
 See http://www.eclipse.org/forums/index.php/t/57027/. 
+6. include Eclipse preferences and launch configurations from eclipse_settings folder: File->Import->General->preferences and File->Import->Run/Debug->Launch Configurations
 
 # Magic settings
 There are some magic settings in this project, otherwise it would not run:
