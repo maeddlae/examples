@@ -1,0 +1,100 @@
+#Thu Feb 22 19:09:34 CET 2018
+\!/=
+/configuration/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
+/configuration/org.eclipse.ui.ide/MAX_RECENT_WORKSPACES=10
+/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=D\:\\Mathias Bucher\\Documents\\others\\Basteln\\examples
+/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES_PROTOCOL=3
+/configuration/org.eclipse.ui.ide/SHOW_RECENT_WORKSPACES=false
+/configuration/org.eclipse.ui.ide/SHOW_WORKSPACE_SELECTION_DIALOG=false
+/instance/org.eclipse.cdt.core.prj-cexample/indexer/preferenceScope=0
+/instance/org.eclipse.cdt.core/macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<macros/>\r\n
+/instance/org.eclipse.cdt.debug.core/org.eclipse.cdt.debug.core.cDebug.default_source_containers=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<sourceLookupDirector>\r\n<sourceContainers duplicates\="false">\r\n<container memento\="&lt;?xml version\=&quot;1.0&quot; encoding\=&quot;UTF-8&quot; standalone\=&quot;no&quot;?&gt;&\#13;&\#10;&lt;mapping backend_enabled\=&quot;true&quot; name\=&quot;Project Source&quot;&gt;&\#13;&\#10;&lt;mapEntry memento\=&quot;&amp;lt;?xml version\=&amp;quot;1.0&amp;quot; encoding\=&amp;quot;UTF-8&amp;quot; standalone\=&amp;quot;no&amp;quot;?&amp;gt;&amp;\#13;&amp;\#10;&amp;lt;mapEntry backendPath\=&amp;quot;/cygdrive/d&amp;quot; localPath\=&amp;quot;D\:\\&amp;quot;/&amp;gt;&amp;\#13;&amp;\#10;&quot;/&gt;&\#13;&\#10;&lt;/mapping&gt;&\#13;&\#10;" typeId\="org.eclipse.cdt.debug.core.containerType.mapping"/>\r\n<container memento\="AbsolutePath" typeId\="org.eclipse.cdt.debug.core.containerType.absolutePath"/>\r\n<container memento\="programRelativePath" typeId\="org.eclipse.cdt.debug.core.containerType.programRelativePath"/>\r\n<container memento\="&lt;?xml version\=&quot;1.0&quot; encoding\=&quot;UTF-8&quot; standalone\=&quot;no&quot;?&gt;&\#13;&\#10;&lt;project referencedProjects\=&quot;true&quot;/&gt;&\#13;&\#10;" typeId\="org.eclipse.cdt.debug.core.containerType.project"/>\r\n</sourceContainers>\r\n</sourceLookupDirector>\r\n
+/instance/org.eclipse.cdt.dsf.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.cdt.managedbuilder.core/properties/cexample.cdt.managedbuild.target.gnu.cygwin.exe.699168897/cdt.managedbuild.config.gnu.cygwin.exe.debug.813904355=cdt.managedbuild.toolchain.gnu.cygwin.exe.debug.425664879\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.config.gnu.cygwin.exe.debug.813904355\=rcState\\\=-1\\r\\nrebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.1480051139\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.2034428882\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.549632944\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.1222495081\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.archiver.cygwin.base.1586949578\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.674416340\=rebuildState\\\=false\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/cexample.cdt.managedbuild.target.gnu.cygwin.exe.699168897/cdt.managedbuild.config.gnu.cygwin.exe.debug.813904355.1768031576=cdt.managedbuild.tool.gnu.archiver.cygwin.base.1936364156\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.143342860\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.1415059354\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.2115606773\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1411243178\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.toolchain.gnu.cygwin.exe.debug.1651612248\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.1213282907\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/cexample.cdt.managedbuild.target.gnu.cygwin.exe.699168897/cdt.managedbuild.config.gnu.cygwin.exe.debug.813904355.719064755=cdt.managedbuild.tool.gnu.archiver.cygwin.base.1616417259\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1081184901\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.315958176\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.1057762504\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.2072447054\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.config.gnu.cygwin.exe.debug.813904355.719064755\=rcState\\\=0\\r\\nrebuildState\\\=false\\r\\n\r\ncdt.managedbuild.toolchain.gnu.cygwin.exe.debug.1496518138\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.114681082\=rebuildState\\\=false\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/cexample.cdt.managedbuild.target.gnu.cygwin.exe.699168897/cdt.managedbuild.config.gnu.cygwin.exe.release.776430178=cdt.managedbuild.toolchain.gnu.cygwin.exe.release.1215714991\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.archiver.cygwin.base.1112764477\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release.2030877244\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.422586826\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.assembler.cygwin.exe.release.618708244\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.1979839615\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release.264612380\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/helloworld.cdt.managedbuild.target.gnu.cygwin.exe.1684409367/cdt.managedbuild.config.gnu.cygwin.exe.debug.534770280=cdt.managedbuild.config.gnu.cygwin.exe.debug.534770280\=rcState\\\=0\\r\\nrebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1492631674\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.toolchain.gnu.cygwin.exe.debug.1960372784\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.454627664\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.archiver.cygwin.base.598584046\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.1662797085\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.261782056\=rebuildState\\\=false\\r\\n\r\ncdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.2025742471\=rebuildState\\\=false\\r\\n\r\n
+/instance/org.eclipse.cdt.managedbuilder.core/properties/helloworld.cdt.managedbuild.target.gnu.cygwin.exe.1684409367/cdt.managedbuild.config.gnu.cygwin.exe.release.1997981085=cdt.managedbuild.toolchain.gnu.cygwin.exe.release.1763171578\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.c.linker.cygwin.exe.release.677820356\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.assembler.cygwin.exe.release.554829688\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.release.354120644\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.1503099264\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.139802993\=rebuildState\\\=true\\r\\n\r\ncdt.managedbuild.tool.gnu.archiver.cygwin.base.233341216\=rebuildState\\\=true\\r\\n\r\n
+/instance/org.eclipse.cdt.mylyn.ui/org.eclipse.mylyn.cdt.ui.run.count.3_3_0=1
+/instance/org.eclipse.cdt.ui.prj-cexample/buildConsole/keepLog=true
+/instance/org.eclipse.cdt.ui.prj-cexample/buildConsole/logLocation=D\:\\Mathias Bucher\\Documents\\others\\Basteln\\examples\\.metadata\\.plugins\\org.eclipse.cdt.ui\\cexample.build.log
+/instance/org.eclipse.cdt.ui/content_assist_disabled_computers=org.eclipse.cdt.ui.textProposalCategory\u0000org.eclipse.cdt.ui.parserProposalCategory\u0000
+/instance/org.eclipse.cdt.ui/org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="org.eclipse.cdt.core.cxxSource.contenttype_context" deleted\="false" description\="" enabled\="true" name\="test without class">${filecomment}&\#13;\r\n&\#13;\r\n\#include "gtest/gtest.h"&\#13;\r\n\#include "yourfile.h"&\#13;\r\n&\#13;\r\n&\#13;\r\nTEST(yourfileastestcase, testname)&\#13;\r\n{&\#13;\r\n\tASSERT_EQ(add(2,4), 6);&\#13;\r\n}&\#13;\r\n</template><template autoinsert\="false" context\="org.eclipse.cdt.core.cxxSource.contenttype_context" deleted\="false" description\="" enabled\="true" name\="test with class">${filecomment}&\#13;\r\n\#include "gtest/gtest.h"&\#13;\r\n\#include "yourfile.h"&\#13;\r\n&\#13;\r\nclass TestClass \: public \:\:testing\:\:Test&\#13;\r\n{&\#13;\r\nprotected\:&\#13;\r\n\tYourClass objecttotest;&\#13;\r\n&\#13;\r\npublic\:&\#13;\r\n\tvoid SetUp()&\#13;\r\n\t{&\#13;\r\n&\#13;\r\n\t}&\#13;\r\n&\#13;\r\n\tvoid TearDown()&\#13;\r\n\t{&\#13;\r\n&\#13;\r\n\t}&\#13;\r\n};&\#13;\r\n&\#13;\r\nTEST_F(TestClass, testname)&\#13;\r\n{&\#13;\r\n\tASSERT_TRUE(true);&\#13;\r\n}</template></templates>
+/instance/org.eclipse.cdt.ui/scalability.detect=false
+/instance/org.eclipse.cdt.ui/scalability.numberOfLines=50000
+/instance/org.eclipse.cdt.ui/spelling_locale=en_GB
+/instance/org.eclipse.cdt.ui/spelling_locale_initialized=true
+/instance/org.eclipse.cdt.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.cdt.ui/useQuickDiffPrefPage=true
+/instance/org.eclipse.core.resources/version=1
+/instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.applicationLaunchType=org.eclipse.cdt.dsf.gdb.launch.localCLaunch,debug,;org.eclipse.cdt.cdi.launch.localCLaunch,run,;
+/instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.attachLaunchType=org.eclipse.cdt.dsf.gdb.launch.attachCLaunch,debug,;
+/instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.postmortemLaunchType=org.eclipse.cdt.dsf.gdb.launch.coreCLaunch,debug,;
+/instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.remoteApplicationLaunchType=org.eclipse.rse.remotecdt.dsf.debug,debug,;
+/instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.testsrunner.launch.CTestsRunner=org.eclipse.cdt.testsrunner.launch.dsf.runTests,debug,;org.eclipse.cdt.testsrunner.launch.runTests,run,;
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.MemoryView.orientation=0
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.switch_perspective_on_suspend=always
+/instance/org.eclipse.debug.ui/pref_state_memento.org.eclipse.debug.ui.DebugVieworg.eclipse.debug.ui.DebugView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<DebugViewMemento org.eclipse.debug.ui.BREADCRUMB_DROPDOWN_AUTO_EXPAND\="false"/>
+/instance/org.eclipse.debug.ui/preferredDetailPanes=DefaultDetailPane\:DefaultDetailPane|
+/instance/org.eclipse.debug.ui/preferredTargets=org.eclipse.cdt.debug.ui.toggleCBreakpointTarget,org.eclipse.cdt.debug.ui.toggleCDynamicPrintfTarget\:org.eclipse.cdt.debug.ui.toggleCBreakpointTarget|
+/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories=D\:\\Mathias Bucher\\Documents\\others\\Basteln\\examples\\.git;
+/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories.relative=.git;
+/instance/org.eclipse.epp.logging.aeri.ide/configured=true
+/instance/org.eclipse.epp.logging.aeri.ide/resetSendMode=KEEP
+/instance/org.eclipse.epp.logging.aeri.ide/resetSendModeOn=0
+/instance/org.eclipse.epp.logging.aeri.ide/sendMode=NEVER
+/instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+/instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+/instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+/instance/org.eclipse.launchbar.core/configDescList=org.eclipse.launchbar.core.descriptorType.default\:helloworld.exe,org.eclipse.launchbar.core.descriptorType.default\:run,org.eclipse.launchbar.core.descriptorType.default\:test all
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:cexample.exe/activeLaunchMode=debug
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:cexample.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:helloworld.exe/activeLaunchMode=run
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:helloworld.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:run/activeLaunchMode=debug
+/instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:test\ all/activeLaunchMode=run
+/instance/org.eclipse.mylyn.context.core/mylyn.attention.migrated=true
+/instance/org.eclipse.mylyn.monitor.ui/org.eclipse.mylyn.monitor.activity.tracking.enabled.checked=true
+/instance/org.eclipse.mylyn.tasks.ui/migrated.task.repositories.secure.store=true
+/instance/org.eclipse.mylyn.tasks.ui/org.eclipse.mylyn.tasks.ui.filters.nonmatching=true
+/instance/org.eclipse.mylyn.tasks.ui/org.eclipse.mylyn.tasks.ui.filters.nonmatching.encouraged=true
+/instance/org.eclipse.oomph.workingsets/working.set.group=<?xml version\="1.0" encoding\="UTF-8"?>\n<workingsets\:WorkingSetGroup xmi\:version\="2.0" xmlns\:xmi\="http\://www.omg.org/XMI" xmlns\:workingsets\="http\://www.eclipse.org/oomph/workingsets/1.0"/>\n
+/instance/org.eclipse.rse.core/activeuserprofiles=LAPTOP-U5F4J2UD;Team
+/instance/org.eclipse.rse.core/org.eclipse.rse.systemtype.local.systemType.defaultUserId=Mathias Bucher
+/instance/org.eclipse.rse.core/useridperkey=LAPTOP-U5F4J2UD.Local\=Mathias Bucher;
+/instance/org.eclipse.rse.ui/org.eclipse.rse.preferences.order.connections=LAPTOP-U5F4J2UD.Local
+/instance/org.eclipse.team.ui/org.eclipse.team.ui.first_time=false
+/instance/org.eclipse.ui.editors/overviewRuler_migration=migrated_3.1
+/instance/org.eclipse.ui.ide/PROBLEMS_FILTERS_MIGRATE=true
+/instance/org.eclipse.ui.ide/platformState=1518955955372
+/instance/org.eclipse.ui.ide/quickStart=true
+/instance/org.eclipse.ui.ide/tipsAndTricks=true
+/instance/org.eclipse.ui.workbench//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+/instance/org.eclipse.ui.workbench/UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
+/instance/org.eclipse.ui/showIntro=false
+@org.eclipse.cdt.core=6.4.0.201802122019
+@org.eclipse.cdt.debug.core=8.3.0.201802122019
+@org.eclipse.cdt.dsf.ui=2.5.0.201802122019
+@org.eclipse.cdt.managedbuilder.core=8.6.0.201802122019
+@org.eclipse.cdt.mylyn.ui=3.23.0.v20170411-2108
+@org.eclipse.cdt.ui=6.3.0.201802122019
+@org.eclipse.core.resources=3.12.0.v20170417-1558
+@org.eclipse.debug.core=3.11.0.v20170605-1534
+@org.eclipse.debug.ui=3.12.50.v20170920-1329
+@org.eclipse.egit.core=4.9.2.201712150930-r
+@org.eclipse.epp.logging.aeri.ide=2.0.6.v20170906-1226
+@org.eclipse.launchbar.core=2.2.0.201711162100
+@org.eclipse.mylyn.context.core=3.23.0.v20170411-2108
+@org.eclipse.mylyn.monitor.ui=3.23.0.v20170411-1844
+@org.eclipse.mylyn.tasks.ui=3.23.1.v20170623-0008
+@org.eclipse.oomph.workingsets=1.8.0.v20170318-0419
+@org.eclipse.rse.core=3.3.100.201603151753
+@org.eclipse.rse.ui=3.3.400.201704241037
+@org.eclipse.team.ui=3.8.1.v20170515-1133
+@org.eclipse.ui=3.109.0.v20170411-1742
+@org.eclipse.ui.editors=3.11.0.v20170202-1823
+@org.eclipse.ui.ide=3.13.1.v20170822-1526
+@org.eclipse.ui.workbench=3.110.1.v20170704-1208
+file_export_version=3.0
