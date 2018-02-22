@@ -1,7 +1,6 @@
 #include "gtest/gtest.h"
-#include "FooTest.cpp"
-#include "CExampleTest.cpp"
 #include "test_cexample.cpp"
+#include "test_cppexample.cpp"
 
 int main(int argc, char **argv)
 {
