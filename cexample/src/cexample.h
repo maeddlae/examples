@@ -13,6 +13,7 @@ extern "C" {
 #define SRC_CEXAMPLE_H_
 
 int add(int a, int b);
+int foo(void);
 
 
 #endif /* SRC_CEXAMPLE_H_ */
