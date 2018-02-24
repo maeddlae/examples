@@ -2,7 +2,8 @@
  * \file   test_anotherc.cpp
  * \author Mathias Bucher
  * \date   22 Feb 2018
- * \brief  Two examples of C tests with mock.
+ *
+ * Two examples of C tests with mock.
  */
 
 #include "gtest/gtest.h"
@@ -13,11 +14,14 @@ DEFINE_FFF_GLOBALS
 
 FAKE_VALUE_FUNC(int, add, int, int);
 
+/**
+ * Test class for anotherc module
+ */
 class Test_anotherc : public ::testing::Test
 {
 public:
 	/**
-	 * \brief Is called before each test
+	 * Is called before each test
 	 */
 	void SetUp()
 	{
@@ -25,7 +29,7 @@ public:
 	}
 
 	/**
-	 * \brief Is called after each test
+	 * Is called after each test
 	 */
 	void TearDown()
 	{
@@ -38,10 +42,10 @@ public:
 };
 
 /**
- * \brief Test example of a method which calls mock once.
- * \param Test_anotherc Test class which contains SetUp and TearDown.
+ * Test example of a method which calls mock once.
+ * @param Test_anotherc Test class which contains SetUp and TearDown.
  * Is also test group name.
- * \param mac Test case name.
+ * @param mac Test case name.
  */
 TEST_F(Test_anotherc, mac)
 {
@@ -53,10 +57,10 @@ TEST_F(Test_anotherc, mac)
 }
 
 /**
- * \brief Test example of a method which calls mock twice.
- * \param Test_anotherc Test class which contains SetUp and TearDown.
+ * Test example of a method which calls mock twice.
+ * @param Test_anotherc Test class which contains SetUp and TearDown.
  * Is also test group name.
- * \param mac Test case name.
+ * @param mac Test case name.
  */
 TEST_F(Test_anotherc, mac2)
 {
@@ -72,7 +76,7 @@ TEST_F(Test_anotherc, mac2)
 }
 
 /**
- * \brief main method for calling tests in this file.
+ * main method for calling tests in this file.
  */
 int main(int argc, char **argv)
 {
