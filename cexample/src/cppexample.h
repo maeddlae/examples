@@ -4,10 +4,10 @@
 /**
  * Simple example of a class
  */
-class CppExample {
+class CppExample
+{
 public:
-  virtual ~CppExample();
-  CppExample();
-  bool getTrue(void) { return true; }
+	  bool getTrue(void);
 };
+
 #endif /* FOO_H_ */

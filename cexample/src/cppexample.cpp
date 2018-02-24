@@ -8,17 +8,10 @@
 #include <cppexample.h>
 
 /**
- * Simple example of a class
+ * Returns always true.
+ * @return true
  */
-CppExample::CppExample() {
-	// TODO Auto-generated constructor stub
-
+bool CppExample::getTrue()
+{
+	return true;
 }
-
-/**
- * Simple example of a class
- */
-CppExample::~CppExample() {
-	// TODO Auto-generated destructor stub
-}
-
