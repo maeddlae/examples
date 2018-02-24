@@ -10,7 +10,7 @@ private:
 	int current;
 	int previous;
 public:
-	Fibonacci(int first, int second);
+	Fibonacci();
 	int getNext();
 };
 
