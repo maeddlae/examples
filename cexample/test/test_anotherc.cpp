@@ -30,7 +30,7 @@ public:
 	}
 };
 
-TEST(Test_anotherc, mac_single_call)
+TEST_F(Test_anotherc, mac)
 {
 	add_fake.return_val = 4;
 	ASSERT_EQ(mac(1,2,3), 12);
@@ -39,13 +39,17 @@ TEST(Test_anotherc, mac_single_call)
 	ASSERT_EQ(add_fake.arg1_val, 2);
 }
 
-TEST(Test_anotherc, mac_multiple_call)
+TEST_F(Test_anotherc, mac2)
 {
-	int add_return_vals[2] = { 5, 6};
+	int add_return_vals[2] = { 3, 4};
 	SET_RETURN_SEQ(add, add_return_vals, 2);
 
-	ASSERT_EQ(mac(1,2,3), 15);
-	ASSERT_EQ(mac(1,2,3), 18);
+	ASSERT_EQ(mac2(1,2,3), 12);
+
+	ASSERT_EQ(add_fake.arg0_history[0],1);
+	ASSERT_EQ(add_fake.arg1_history[0],2);
+	ASSERT_EQ(add_fake.arg0_history[1],1);
+	ASSERT_EQ(add_fake.arg1_history[1],3);
 }
 
 int main(int argc, char **argv)

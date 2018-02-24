@@ -12,3 +12,10 @@ int mac(int a, int b, int c)
 {
 	return add(a,b) * c;
 }
+
+int mac2(int a, int b, int c)
+{
+	int x = add(a,b);
+
+	return add(a,c) * x;
+}
