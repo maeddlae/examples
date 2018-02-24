@@ -16,6 +16,8 @@ Add there a new source called "Project Source". Now set compilation path to
 See http://www.eclipse.org/forums/index.php/t/57027/. 
 6. include Eclipse preferences and launch configurations from .settings folder: File->Import->General->preferences and File->Import->Run/Debug->Launch Configurations
 7. also import templates in Window -> Preferences -> C/C++ -> Code Style -> Code Templates
+8. install doxygen http://www.stack.nl/~dimitri/doxygen/download.html and graphviz https://graphviz.gitlab.io/_pages/Download/Download_windows.html. Do not 
+forget to set PATH variable for graphviz!
 
 # Magic settings
 There are some magic settings in this project, otherwise it would not run:
