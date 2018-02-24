@@ -10,5 +10,5 @@
 
 int mac(int a, int b, int c)
 {
-	return foo() * c;
+	return add(a,b) * c;
 }

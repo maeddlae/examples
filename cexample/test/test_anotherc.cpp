@@ -10,13 +10,32 @@
 #include "fff/fff.h"
 #include "anotherc.h"
 
-//FAKE_VALUE_FUNC(int, add, int, int);
-//FAKE_VALUE_FUNC(int, foo);
+DEFINE_FFF_GLOBALS
 
+FAKE_VALUE_FUNC(int, add, int, int);
 
-TEST(anotherc, mac)
+class Test_anotherc : public ::testing::Test
 {
-	ASSERT_EQ(9,mac(1,2,3));
+public:
+	void SetUp()
+	{
+
+	}
+
+	void TearDown()
+	{
+		RESET_FAKE(add);
+
+		FFF_RESET_HISTORY();
+	}
+};
+
+TEST(Test_anotherc, mac)
+{
+	add_fake.return_val = 4;
+	ASSERT_EQ(mac(1,2,3), 12);
+	ASSERT_EQ(add_fake.arg0_val, 1);
+	ASSERT_EQ(add_fake.arg1_val, 2);
 }
 
 int main(int argc, char **argv)
