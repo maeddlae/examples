@@ -6,6 +6,7 @@
  * Implements Fibonacci calculator
  */
 #include "fibonacci.h"
+#include "mymath.h"
 
 Fibonacci::Fibonacci()
 {
@@ -20,7 +21,8 @@ Fibonacci::Fibonacci()
 int Fibonacci::getNext()
 {
 	int val;
-	val = this->current + this->previous;
+	MyMath mymath;
+	val = mymath.myadd(this->current, this->previous);
 	this->previous = this->current;
 	this->current = val;
 	return val;
