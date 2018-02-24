@@ -11,8 +11,8 @@
 class MyMath
 {
 public:
-	int myadd(int a, int b);
-	int mymul(int a, int b);
+	virtual int myadd(int a, int b);
+	virtual int mymul(int a, int b);
 };
 
 #endif /* SRC_MYMATH_H_ */

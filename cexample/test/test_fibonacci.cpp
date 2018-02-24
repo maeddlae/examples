@@ -6,6 +6,11 @@
  * Test Fibonacci class
  */
 #include "gtest/gtest.h"
+#include "gmock/gmock.h"
+#include "mocks/mock_MyMath.cpp"
+using ::testing::AtLeast;
+using ::testing::Return;
+
 #include "fibonacci.h"
 
 /**
@@ -41,10 +46,12 @@ public:
  */
 TEST_F(Test_Fibonacci, getNext)
 {
+	MockMyMath mymath_mock;
 	Fibonacci fb;
 
+	EXPECT_CALL(mymath_mock, myadd(1,1))
+	.Times(AtLeast(1))
+	.WillOnce(Return(2));
+
 	ASSERT_EQ(fb.getNext(),2);
-	ASSERT_EQ(fb.getNext(),3);
-	ASSERT_EQ(fb.getNext(),5);
-	ASSERT_EQ(fb.getNext(),8);
 }

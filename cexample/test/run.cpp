@@ -6,7 +6,7 @@
  * Runs all tests which do not contain another main method.
  * Be sure that no other main method is included when building this file.
  */
-#include "gtest/gtest.h"
+#include "gmock/gmock.h"
 #include "test_cexample.cpp"
 #include "test_cppexample.cpp"
 #include "test_mymath.cpp"
@@ -17,7 +17,7 @@
  */
 int main(int argc, char **argv)
 {
-  ::testing::InitGoogleTest(&argc, argv);
+  ::testing::InitGoogleMock(&argc, argv);
   return RUN_ALL_TESTS();
 }
 
