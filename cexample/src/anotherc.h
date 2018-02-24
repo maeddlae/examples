@@ -1,10 +1,6 @@
-/*
- * anotherc.h
- *
- *  Created on: 22 Feb 2018
- *      Author: Mathias Bucher
+/**
+ * @copydoc anotherc.c
  */
-
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -13,6 +9,7 @@ extern "C" {
 
 int mac(int a, int b, int c);
 int mac2(int a, int b, int c);
+
 
 #endif /* SRC_ANOTHERC_H_ */
 #ifdef __cplusplus

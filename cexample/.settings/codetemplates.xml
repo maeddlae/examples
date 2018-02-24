@@ -2,18 +2,22 @@
  *
  */</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.destructorcomment_context" deleted="false" description="Comment for created destructors" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.destructorcomment" name="destructorcomment">/*
  *
- */</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.filecomment_context" deleted="false" description="Comment for created C/C++ files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.filecomment" name="filecomment">/*
- * ${file_name}
- *
- *  Created on: ${date}
- *      Author: ${user}
+ */</template><template autoinsert="false" context="org.eclipse.cdt.ui.text.codetemplates.filecomment_context" deleted="false" description="Comment for created C/C++ files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.filecomment" name="filecomment">/**
+ * @file   ${file_name}
+ * @author ${user}
+ * @date   ${date}
+ * 
+ * TODO: write detailled description here
  */
 </template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.typecomment_context" deleted="false" description="Comment for created classes" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.typecomment" name="typecomment">/*
  *
  */</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.fieldcomment_context" deleted="false" description="Comment for fields" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.fieldcomment" name="fieldcomment">/*
  *
- */</template><template autoinsert="true" context="org.eclipse.cdt.ui.text.codetemplates.methodcomment_context" deleted="false" description="Comment for methods" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.methodcomment" name="methodcomment">/*
- *
+ */</template><template autoinsert="false" context="org.eclipse.cdt.ui.text.codetemplates.methodcomment_context" deleted="false" description="Comment for methods" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**
+ * TODO: write detailled description here
+ * 
+ * @param var1 this is an argument description
+ * @return describe return value here
  */</template><template autoinsert="true" context="org.eclipse.cdt.core.cxxSource.contenttype_context" deleted="false" description="Default template for newly created C++ source files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.cppsourcefile" name="Default C++ source template">${filecomment}
 ${includes}
 
@@ -43,7 +47,9 @@ ${namespace_end}
 #endif /* ${include_guard_symbol} */</template><template autoinsert="true" context="org.eclipse.cdt.core.cSource.contenttype_context" deleted="false" description="Default template for newly created C source files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.csourcefile" name="Default C source template">${filecomment}
 ${includes}
 
-${declarations}</template><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="Default template for newly created C header files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.cheaderfile" name="Default C header template">${filecomment}
+${declarations}</template><template autoinsert="false" context="org.eclipse.cdt.core.cHeader.contenttype_context" deleted="false" description="Default template for newly created C header files" enabled="true" id="org.eclipse.cdt.ui.text.codetemplates.cheaderfile" name="Default C header template">/**
+ * @copydoc TODO: add *.c file here
+ */
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -65,38 +71,97 @@ ${declarations}
  Created on: ${date}
      Author: ${user}
 
-</template><template autoinsert="false" context="org.eclipse.cdt.core.cxxSource.contenttype_context" deleted="false" description="" enabled="true" name="test without class">${filecomment}&#13;
-&#13;
+</template><template autoinsert="false" context="org.eclipse.cdt.core.cxxSource.contenttype_context" deleted="false" description="" enabled="true" name="test c">${filecomment}&#13;
 #include "gtest/gtest.h"&#13;
+#include "fff/fff.h"&#13;
 #include "yourfile.h"&#13;
 &#13;
+DEFINE_FFF_GLOBALS ///&lt; defines some fff variables&#13;
 &#13;
-TEST(yourfileastestcase, testname)&#13;
+FAKE_VALUE_FUNC(int, methodtomock, int, int); ///&lt; example mock of method with two arguments and return value&#13;
+&#13;
+/**&#13;
+ * TODO: write test class summary&#13;
+ */&#13;
+class Test_yourfile : public ::testing::Test&#13;
 {&#13;
-	ASSERT_EQ(add(2,4), 6);&#13;
-}&#13;
-</template><template autoinsert="false" context="org.eclipse.cdt.core.cxxSource.contenttype_context" deleted="false" description="" enabled="true" name="test with class">${filecomment}&#13;
-#include "gtest/gtest.h"&#13;
-#include "yourfile.h"&#13;
-&#13;
-class TestClass : public ::testing::Test&#13;
-{&#13;
-protected:&#13;
-	YourClass objecttotest;&#13;
-&#13;
 public:&#13;
+	/**&#13;
+	 * Is called before each test&#13;
+	 */&#13;
 	void SetUp()&#13;
 	{&#13;
 &#13;
 	}&#13;
 &#13;
+	/**&#13;
+	 * Is called after each test&#13;
+	 */&#13;
+	void TearDown()&#13;
+	{&#13;
+		// reset fakes: must be done for each fake&#13;
+		RESET_FAKE(methodtomock);&#13;
+&#13;
+		// reset fake history is needed in order to check call history&#13;
+		FFF_RESET_HISTORY();&#13;
+	}&#13;
+};&#13;
+&#13;
+/**&#13;
+ * Test example&#13;
+ * @param Test_yourfile Test class which contains SetUp and TearDown.&#13;
+ * Is also test group name.&#13;
+ * @param mac Test case name.&#13;
+ */&#13;
+&#13;
+TEST_F(Test_yourfile, testcase)&#13;
+{&#13;
+	ASSERT_TRUE(true);&#13;
+}&#13;
+&#13;
+/**&#13;
+ * main method for calling tests in this file.&#13;
+ */&#13;
+int main(int argc, char **argv)&#13;
+{&#13;
+  ::testing::InitGoogleTest(&amp;argc, argv);&#13;
+  return RUN_ALL_TESTS();&#13;
+}</template><template autoinsert="false" context="org.eclipse.cdt.core.cxxSource.contenttype_context" deleted="false" description="" enabled="true" name="test cpp">${filecomment}&#13;
+#include "gtest/gtest.h"&#13;
+#include "yourfile.h"&#13;
+/**&#13;
+ * TODO: write test class summary&#13;
+ */&#13;
+class Test_YourClass : public ::testing::Test&#13;
+{&#13;
+protected:&#13;
+	YourClass objectToTest; ///&lt; make object of your class here&#13;
+public:&#13;
+	/**&#13;
+	 * Is called before each test&#13;
+	 */&#13;
+	void SetUp()&#13;
+	{&#13;
+&#13;
+	}&#13;
+&#13;
+	/**&#13;
+	 * Is called after each test&#13;
+	 */&#13;
 	void TearDown()&#13;
 	{&#13;
 &#13;
 	}&#13;
 };&#13;
 &#13;
-TEST_F(TestClass, testname)&#13;
+/**&#13;
+ * Test example&#13;
+ * @param Test_YourClass Test class which contains SetUp and TearDown.&#13;
+ * Is also test group name.&#13;
+ * @param mac Test case name.&#13;
+ */&#13;
+TEST_F(Test_YourClass, testcase)&#13;
 {&#13;
 	ASSERT_TRUE(true);&#13;
-}</template></templates>
+}&#13;
+</template></templates>

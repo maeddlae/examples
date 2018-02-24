@@ -1,17 +1,23 @@
-/*
- * Foo.cpp
+/**
+ * @file   cppexample.cpp
+ * @author Mathias Bucher
+ * @date   24 Feb 2018
  *
- *  Created on: 11 Jul 2017
- *      Author: Mathias Bucher
+ * This is a simple example of a class.
  */
-
 #include <cppexample.h>
 
+/**
+ * Simple example of a class
+ */
 CppExample::CppExample() {
 	// TODO Auto-generated constructor stub
 
 }
 
+/**
+ * Simple example of a class
+ */
 CppExample::~CppExample() {
 	// TODO Auto-generated destructor stub
 }
