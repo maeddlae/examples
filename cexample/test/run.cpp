@@ -9,6 +9,7 @@
 #include "gtest/gtest.h"
 #include "test_cexample.cpp"
 #include "test_cppexample.cpp"
+#include "test_mymath.cpp"
 
 /**
  * Runs all tests
