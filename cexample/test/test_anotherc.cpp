@@ -5,7 +5,6 @@
  * \brief  Two examples of C tests with mock.
  */
 
-
 #include "gtest/gtest.h"
 #include "fff/fff.h"
 #include "anotherc.h"
