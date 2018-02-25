@@ -8,10 +8,11 @@
 #include "fibonacci.h"
 #include "mymath.h"
 
-Fibonacci::Fibonacci()
+Fibonacci::Fibonacci(MyMath * mymath)
 {
 	this->previous = 1;
 	this->current = 1;
+	this->mymath = mymath;
 }
 
 /**
@@ -21,8 +22,7 @@ Fibonacci::Fibonacci()
 int Fibonacci::getNext()
 {
 	int val;
-	MyMath mymath;
-	val = mymath.myadd(this->current, this->previous);
+	val = this->mymath->myadd(this->current, this->previous);
 	this->previous = this->current;
 	this->current = val;
 	return val;

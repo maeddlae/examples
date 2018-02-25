@@ -11,7 +11,7 @@
 /**
  * Mocks MyMath
  */
-class MockMyMath:MyMath
+class MockMyMath: public MyMath
 {
 public:
 	MOCK_METHOD2(myadd, int(int a, int b));

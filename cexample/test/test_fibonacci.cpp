@@ -8,7 +8,7 @@
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
 #include "mocks/mock_MyMath.cpp"
-using ::testing::AtLeast;
+using ::testing::Exactly;
 using ::testing::Return;
 
 #include "fibonacci.h"
@@ -44,13 +44,13 @@ public:
  * Is also test group name.
  * @param getNext Test case name.
  */
-TEST_F(Test_Fibonacci, getNext)
+TEST_F(Test_Fibonacci, getNext_once)
 {
 	MockMyMath mymath_mock;
-	Fibonacci fb;
+	Fibonacci fb(&mymath_mock);
 
 	EXPECT_CALL(mymath_mock, myadd(1,1))
-	.Times(AtLeast(1))
+	.Times(Exactly(1))
 	.WillOnce(Return(2));
 
 	ASSERT_EQ(fb.getNext(),2);
