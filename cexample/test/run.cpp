@@ -10,7 +10,7 @@
 #include "test_cexample.cpp"
 #include "test_cppexample.cpp"
 #include "test_mymath.cpp"
-#include "test_fibonacci.cpp"
+#include "test_Fibonacci.cpp"
 
 /**
  * Runs all tests

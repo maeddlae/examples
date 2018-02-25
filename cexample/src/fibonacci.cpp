@@ -1,14 +1,14 @@
 /**
- * @file   fibonacci.cpp
+ * @file   FibonacciWithPrivateObject.cpp
  * @author Mathias Bucher
  * @date   24 Feb 2018
  * 
- * Implements Fibonacci calculator
+ * Implements FibonacciWithPrivateObject calculator
  */
-#include "fibonacci.h"
+#include "Fibonacci.h"
 #include "mymath.h"
 
-Fibonacci::Fibonacci(MyMath * mymath)
+FibonacciWithPrivateObject::FibonacciWithPrivateObject(MyMath * mymath)
 {
 	this->previous = 1;
 	this->current = 1;
@@ -16,10 +16,10 @@ Fibonacci::Fibonacci(MyMath * mymath)
 }
 
 /**
- * Gets the next Fibonacci number
- * @return next Fibonacci number
+ * Gets the next FibonacciWithPrivateObject number
+ * @return next FibonacciWithPrivateObject number
  */
-int Fibonacci::getNext()
+int FibonacciWithPrivateObject::getNext()
 {
 	int val;
 	val = this->mymath->myadd(this->current, this->previous);

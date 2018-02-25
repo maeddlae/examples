@@ -1,22 +1,22 @@
 /**
- * @copydoc fibonacci.cpp
+ * @copydoc FibonacciWithPrivateObject.cpp
  */
-#ifndef SRC_FIBONACCI_H_
-#define SRC_FIBONACCI_H_
+#ifndef SRC_FibonacciWithPrivateObject_H_
+#define SRC_FibonacciWithPrivateObject_H_
 
 #include "mymath.h"
 
-class Fibonacci
+class FibonacciWithPrivateObject
 {
 private:
 	int current;
 	int previous;
 	MyMath * mymath;
 public:
-	Fibonacci(MyMath * mymath);
+	FibonacciWithPrivateObject(MyMath * mymath);
 	int getNext();
 };
 
 
 
-#endif /* SRC_FIBONACCI_H_ */
+#endif /* SRC_FibonacciWithPrivateObject_H_ */

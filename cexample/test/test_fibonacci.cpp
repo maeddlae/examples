@@ -1,9 +1,9 @@
 /**
- * @file   test_fibonacci.cpp
+ * @file   test_FibonacciWithPrivateObject.cpp
  * @author Mathias Bucher
  * @date   24 Feb 2018
  * 
- * Test Fibonacci class
+ * Test FibonacciWithPrivateObject class
  */
 #include "gtest/gtest.h"
 #include "gmock/gmock.h"
@@ -12,12 +12,12 @@ using ::testing::Exactly;
 using ::testing::Return;
 using ::testing::InSequence;
 
-#include "fibonacci.h"
+#include "Fibonacci.h"
 
 /**
- * Test Fibonacci class
+ * Test FibonacciWithPrivateObject class
  */
-class Test_Fibonacci : public ::testing::Test
+class Test_FibonacciWithPrivateObject : public ::testing::Test
 {
 protected:
 
@@ -41,14 +41,14 @@ public:
 
 /**
  * Test getNext method
- * @param Test_Fibonacci Test class which contains SetUp and TearDown.
+ * @param Test_FibonacciWithPrivateObject Test class which contains SetUp and TearDown.
  * Is also test group name.
  * @param getNext Test case name.
  */
-TEST_F(Test_Fibonacci, getNext_once)
+TEST_F(Test_FibonacciWithPrivateObject, getNext_once)
 {
 	MockMyMath mymath_mock;
-	Fibonacci fb(&mymath_mock);
+	FibonacciWithPrivateObject fb(&mymath_mock);
 
 	EXPECT_CALL(mymath_mock, myadd(1,1))
 	.Times(Exactly(1))
@@ -59,15 +59,15 @@ TEST_F(Test_Fibonacci, getNext_once)
 
 /**
  * Test getNext method with multiple calls
- * @param Test_Fibonacci Test class which contains SetUp and TearDown.
+ * @param Test_FibonacciWithPrivateObject Test class which contains SetUp and TearDown.
  * Is also test group name.
  * @param getNext Test case name.
  */
-TEST_F(Test_Fibonacci, getNext_multiple)
+TEST_F(Test_FibonacciWithPrivateObject, getNext_multiple)
 {
 	InSequence dummy;
 	MockMyMath mymath_mock;
-	Fibonacci fb(&mymath_mock);
+	FibonacciWithPrivateObject fb(&mymath_mock);
 
 	EXPECT_CALL(mymath_mock, myadd(1,1))
 	.Times(Exactly(1))
